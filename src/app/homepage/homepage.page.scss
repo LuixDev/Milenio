@@ -1,25 +1,69 @@
+
 .header{
     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button_header{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.search_bar{
+    height: 70px;
 }
 
 .container{
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 531px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.button_left{
+.container_button_left{
     display: flex;
     flex-direction: column;
 }
 
-.button_center{
+.container_button_center{
     display: flex;
     align-items: center;
 }
 
-.button_right{
+.container_button_right{
     display: flex;
     flex-direction: column;
+}
+
+.button_left{
+    --border-radius: 25px;
+}
+
+.btn_left{
+    margin-bottom: 60px;
+}
+
+.button_right{
+    margin-bottom: 20px;
+    --border-radius: 25px;
+}
+
+.btn_right{
+    margin-bottom: 60px;
+}
+
+.button_center{
+    --border-radius: 100%;
+    height: 180px;
+    width: 180px;
+}
+
+.left{
+    margin-right: 40px;
 }
