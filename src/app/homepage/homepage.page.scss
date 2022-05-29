@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.button_center{
+    display: flex;
+    align-items: center;
+}
+
+.button_right{
+    display: flex;
+    flex-direction: column;
+}
