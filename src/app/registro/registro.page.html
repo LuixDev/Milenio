@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid class="grid1">
+  
+      <ion-row class="row1">
+          <ion-col>
+  
+          </ion-col>
+      </ion-row>
+  
+      <ion-row class="row2">
+          <ion-col>
+  
+          </ion-col>
+      </ion-row>
+  
+  </ion-grid>
+  
+  <ion-slide>
+      <div class="contaier-login">
+          <ion-grid>
+              
+              <ion-row>
+                  <ion-col>
+                      <ion-list>
+                        <ion-item>
+                          <ion-label>Correo electronico:</ion-label>
+                          <ion-input name="user" type="email" required placeholder="Correo electronico"></ion-input>
+                      </ion-item>
+                      <br />
+                        <ion-item>
+                          <ion-label>Numero de telefono:</ion-label>
+                          <ion-input name="user" type="tel" required placeholder="Numero de telefono"></ion-input>
+                      </ion-item>
+                      <br />
+                        <ion-item>
+                          <ion-label>Usuario:</ion-label>
+                          <ion-input name="user" type="text" required placeholder="Usuario"></ion-input>
+                      </ion-item>
+                      <br />
+                        <ion-item>
+                          <ion-label>Contraseña:</ion-label> 
+                          <ion-input name="user" type="password" required placeholder="Contraseña"></ion-input>
+                      </ion-item>
+                      <br />
+                          <ion-item>
+                            <ion-label position="stacked">Confirmacion de contraseña:</ion-label>
+                        
+                              <ion-input name="user" type="password" required placeholder="Confirmacion de contraseña"></ion-input>
+                          </ion-item>
+                          <br />
+                          <ion-item>
+                            <ion-label  position="stacked">Fecha de nacimiento:</ion-label>
+                              <ion-input name="password" type="date" required placeholder=""></ion-input>
+                          </ion-item>
+  
+                      </ion-list>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col>
+                  
+                      <ion-button type="submit" fill="solid" expand="full" [routerLink]="['/registro']">
+                        Registrar
+                    </ion-button>
+                  </ion-col>
+                  
+              </ion-row>
+              
+              
+          </ion-grid>
+      </div>
+  </ion-slide>
+
+</ion-content>
